@@ -1,40 +1,40 @@
-if game.CoreGui:FindFirstChild("SOMEXHUBMODILE") then
-    game.CoreGui:FindFirstChild("SOMEXHUBMODILE"):Destroy()
+if game.CoreGui:FindFirstChild("MythicHub") then
+    game.CoreGui:FindFirstChild("MythicHub"):Destroy()
 end
 
-local SOMEXHUBMODILE = Instance.new("ScreenGui")
-local MODILEGUISOMEXHUB = Instance.new("TextButton")
-local MODILEGUISOMEXHUBHUI = Instance.new("UICorner")
+local MythicHub = Instance.new("ScreenGui")
+local MythicHub = Instance.new("TextButton")
+local MythicHub = Instance.new("UICorner")
 local MODILEMAGE = Instance.new("ImageLabel")
 
-SOMEXHUBMODILE.Name = "SOMEXHUBMODILE"
-        SOMEXHUBMODILE.Parent = game.CoreGui
-        SOMEXHUBMODILE.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+MythicHub.Name = "MythicHub-by-AnhLaManhVy"
+        MythicHub.Parent = game.CoreGui
+        MythicHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-        MODILEGUISOMEXHUB.Name = "MODILEGUISOMEXHUB"
-        MODILEGUISOMEXHUB.Parent = SOMEXHUBMODILE
-        MODILEGUISOMEXHUB.BackgroundColor3 = Color3.fromRGB(30,20,20)
-        MODILEGUISOMEXHUB.BorderSizePixel = 0
-        MODILEGUISOMEXHUB.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
-        MODILEGUISOMEXHUB.Size = UDim2.new(0, 50, 0, 50)
-        MODILEGUISOMEXHUB.Font = Enum.Font.SourceSans
-        MODILEGUISOMEXHUB.Text = ""
-        MODILEGUISOMEXHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
-        MODILEGUISOMEXHUB.TextSize = 14.000
-        MODILEGUISOMEXHUB.Draggable = true
-        MODILEGUISOMEXHUB.MouseButton1Click:Connect(function()
-        game.CoreGui:FindFirstChild("SOMEXHUB").Enabled = not game.CoreGui:FindFirstChild("SOMEXHUB").Enabled
+        MythicHub.Name = "MythicHub-by-AnhLaManhVy"
+        MythicHub.Parent = MythicHub
+        MythicHub.BackgroundColor3 = Color3.fromRGB(30,20,20)
+        MythicHub.BorderSizePixel = 0
+        MythicHub.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
+        MythicHub.Size = UDim2.new(0, 55, 0, 55)
+        MythicHub.Font = Enum.Font.SourceSans
+        MythicHub.Text = "AnhLaManhVy"
+        MythicHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+        MythicHub.TextSize = 15.000
+        MythicHub.Draggable = true
+        MythicHub.MouseButton1Click:Connect(function()
+        game.CoreGui:FindFirstChild("MythicHub").Enabled = not game.CoreGui:FindFirstChild("MythicHub").Enabled
         end)
         do
-        if game:GetService("CoreGui"):FindFirstChild("SOMEXHUB") then
+        if game:GetService("CoreGui"):FindFirstChild("MythicHub") then
         end
         end
 
-        MODILEGUISOMEXHUBHUI.Name = "MODILEGUISOMEXHUBHUI"
-        MODILEGUISOMEXHUBHUI.Parent = MODILEGUISOMEXHUB
+        MythicHub.Name = "MythicHub"
+        MythicHub.Parent = MythicHub
 
         MODILEMAGE.Name = "MODILEMAGE"
-        MODILEMAGE.Parent = MODILEGUISOMEXHUB
+        MODILEMAGE.Parent = MODILEGUIMythicHub
         MODILEMAGE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         MODILEMAGE.BackgroundTransparency = 1.000
         MODILEMAGE.BorderSizePixel = 0
